@@ -1,0 +1,721 @@
+<html>
+<head>
+    <link rel="stylesheet" href="assets/plugins/jquery_mobile/jquery.mobile-1.4.3.min.css" />
+    <link rel="stylesheet" href="../assets/plugins/countryselector/jquery.countrySelector.1.1.0.css" />
+<script src="assets/js/jquery_1.11.1/jquery_1.11.1.min.js" >
+</script>
+<script src="assets/plugins/jquery_mobile/jquery.mobile-1.4.3.min.js" >
+</script>
+<script src="../assets/plugins/countryselector/jquery.countrySelector.1.1.0.min.js" >
+</script>
+<style>
+.ui-collapsible-set, .ui-listview {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 80px;
+}
+.collapsible_header {
+    padding-left: 20%;
+    position: absolute;
+    padding-top: 8%;
+    display: inline;
+}
+.header {
+    display: inline;
+}
+.info-header-image {
+    display:inline;
+    height: 80px;
+}
+.country-selector .cflag:hover {
+    box-shadow: 0px 0px 5px 2px greenyellow;
+}
+
+.country-selector .cflag-selected {
+    box-shadow: 0px 0px 5px 2px lime;
+}
+</style>
+</head>
+<body>
+
+<div data-role='page' id='offerings'>
+    <div data-role='panel' id='offerings-menu' data-display='overlay'>
+        <div>
+            <a href='#about'>About Rudy's Tours</a>
+        </div>
+    </div>
+    <div style="display:inline;" data-role='header'>
+        <a href='#offerings-menu'>Menu</a>
+        <h1>Tour Offerings [ESPANOL]</h1>
+        <div class='header' id='country' data-country-select="true"></div>
+    </div>
+    <div role='main' class='ui-content'>
+        <p>
+            Rudy's Panama Tours &amp; Transfers: Private Guided and small group Tours
+        </p>
+        <p>
+            Tours in English, Spanish, Italian, German and French
+        <p>
+        <div data-role="collapsible-set">
+          <div class="tour-info" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-iconpos="right">
+            <div>
+                <div>
+                    <img src="../assets/img/plaza%20catedral%20mini.jpg"/>
+                </div>
+                <div>
+                    PANAMA CITY &amp; CANAL
+                </div>
+            </div>
+            <p>
+                On this tour you will learn the history of Panama City as you sketch the steps of the Spanish Conquistadors. Discover the  three cities in one: Colonial Panama, Amador and Modern Panama and how Panama City became the most important trade center of the New World. Afterwards, we will meet Panama’s mega-attraction the Panama Canal at the Miraflores Locks and  observe 90,000-ton vessels rise and drop more than 50 feet as they make their way over Panama from one ocean to another
+            </p>
+            <div class="tour-detail">
+                <h3>
+                    pricing
+                </h3>
+                <div>
+                    More detail
+                </div>
+            </div>
+          </div>
+            
+          <div class='tour-info' data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-iconpos="right">
+            <div>
+                <img src='../assets/img/panama%20vieja%20mini.jpg'/>
+                <div>
+                    PANAMA CITY
+                </div>
+            </div>
+            <p> On this tour you will learn the history of Panama City as you sketch the steps of the Spanish Conquistadors. Discover the  three cities in one: Colonial Panama, Amador and Modern Panama and how Panama City became the most important trade center of the New World.</p>
+            <div class="tour-detail">
+                <h3>
+                    pricing
+                </h3>
+                <div>
+                    More detail
+                </div>
+            </div>
+          </div>
+
+          <div class='tour-info' data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-iconpos="right">
+            <div>
+                <img src='../assets/img/panama%20transit.bmp' />
+                <div>
+                    PANAMA CANAL
+                </div>
+            </div>
+            <p>We will meet Panama’s mega-attraction which took 250,000 people from all corners of the globe and more than 20 years to build, the Panama Canal at the Miraflores Locks and  observe 90,000-ton vessels rise and drop more than 50 feet as they make their way over Panama from one ocean to another.</p>
+            <div class="tour-detail">
+                <h3>
+                    pricing
+                </h3>
+                <div>
+                    More detail
+                </div>
+            </div>
+          </div>
+
+          <div class='tour-info' data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-iconpos="right">
+            <div>
+                <img src='../assets/img/city.jpg' />
+                <div>
+                    PANAMA CITY BY NIGHT
+                </div>
+            </div>
+            <p>We will drive through Colonial Panama, Amador and Modern Panama with some quick stops at the best places learning the history and how Panama became the most important trade center of the world. The night lights gives a special touch and atmosphere to this great city.</p>
+            <div class="tour-detail">
+                <h3>
+                    pricing
+                </h3>
+                <div>
+                    More detail
+                </div>
+            </div>
+          </div>
+        
+          <div class='tour-info' data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-iconpos="right">
+            <div>
+                <img src='../assets/img/train%20railroad.jpg' />
+                <div>
+                    PANAMA CANAL RAILROAD, SAN LORENZO, GATUN LOCKS &amp; COLON
+                </div>
+            </div>
+            <p>From Panama City you will take a train ride across the Isthmus on the historic newly restored Panama Canal Railway in refurbished air-conditioned passenger cars. Then we will drive to Fort San Lorenzo, one of the two main forts build in the late 16th century, meant to protect the final part of the trail known as “Camino de Cruces”.             </p>
+            <div class="tour-detail">
+                <h3>
+                    pricing
+                </h3>
+                <div>
+                    More detail
+                </div>
+            </div>
+          </div>
+
+          <div class='tour-info' data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-iconpos="right">
+            <div>
+                <img src='../assets/img/recamaras.jpg' />
+                <div>
+                    FORT SAN LORENZO
+                </div>
+            </div>
+            <p>From Panama City you will take a train ride across the Isthmus on the historic newly restored Panama Canal Railway in refurbished air-conditioned passenger cars. Then we will drive to Fort San Lorenzo, one of the two main forts build in the late 16th century, meant to protect the final part of the trail known as “Camino de Cruces”.             </p>
+            <div class="tour-detail">
+                <h3>
+                    pricing
+                </h3>
+                <div>
+                    More detail
+                </div>
+            </div>
+          </div>
+
+          <div class='tour-info' data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-iconpos="right">
+            <div>
+                <img src='../assets/img/gatun%20icon.jpg' />
+                <div>
+                    BOAT RIDE ON THE GATUN LAKE
+                </div>
+            </div>
+            <p>Once the largest manmade lake in the world, at 422 square kilometers Lago Gatún is still a plenty impressive body of water. It was formed by damming the Río Chagres near its mouth, at Gatún, and is an integral part of the Panama Canal. Transiting ships still follow the submerged river bed of the Chagres, since it is the deepest part of the lake.             </p>
+            <div class="tour-detail">
+                <h3>
+                    pricing
+                </h3>
+                <div>
+                    More detail
+                </div>
+            </div>
+          </div>
+            
+         <div class='tour-info' data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-iconpos="right">
+            <div>
+                <img src='../assets/img/logoelvalle.JPG' />
+                <div>
+                    EL VALLE, CANOPY ADVENTURE &amp; ZOO
+                </div>
+            </div>
+            <p>On this tour we will visit a paradisiacal place at 600 meters above sea level full of ecoturistic attractions called “El valle de Anton”, from the Spaniard explorer Anton Martin. El Valle is located on top of the second largest extinguished  volcano crater in the world which erupted three million years ago. Here is the only place in the world where you will see the Golden Frog.
+             </p>
+            <div class="tour-detail">
+                <h3>
+                    pricing
+                </h3>
+                <div>
+                    More detail
+                </div>
+            </div>
+          </div>
+            
+         <div class='tour-info' data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-iconpos="right">
+            <div>
+                <img src='../assets/img/1424352_15e7c6ca68.jpg' />
+                <div>
+                    ISLA BARRO COLORADO (SMITHSONIAN INSTITUTE)
+                </div>
+            </div>
+            <p>Barro Colorado is one of the oldest tropical research stations in the world: people have been studying the forest here for more than 80 years. More than 200 scientists visit this open-air biology laboratory every year to study ecology, evolution and behavior of the animals and plants of the monument. Research projects on plants, animals and microorganisms contribute tangibly to our understanding of the rich tropical forest ecosystem.
+             </p>
+            <div class="tour-detail">
+                <h3>
+                    pricing
+                </h3>
+                <div>
+                    More detail
+                </div>
+            </div>
+          </div>
+            
+         <div class='tour-info' data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-iconpos="right">
+            <div>
+                <img src='../assets/img/mono%20mini.jpg' />
+                <div>
+                    MONKEY ISLAND
+                </div>
+            </div>
+            <p>You will travel at high speed on the canal for 25 minutes where you might come close to some of the big ships that transit the canal daily and then the boat will go to a crusing speed traveling along the forested banks of Gatun lake, also a protected area, and looking for wildlife such as Capuchin Monkeys, 3toed Sloth, Howler Monkeys, various kinds of Toucans and other birdlife. Truly a unique place to observe the raw regenerative power of the forest as it struggles to claim what was once wild.
+             </p>
+            <div class="tour-detail">
+                <h3>
+                    pricing
+                </h3>
+                <div>
+                    More detail
+                </div>
+            </div>
+          </div>
+            
+         <div class='tour-info' data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-iconpos="right">
+            <div>
+                <img src='../assets/img/ecotours.jpg' />
+                <div>
+                    BIRD WATCHING AT PIPELINE ROAD
+                </div>
+            </div>
+            <p>Pipeline Road is considered by experts such as the ABA (American Birding Association), Audubon Society, National Geographic and Discovery Magazine as one of the best places in the world for bird watching. Also site of the 1985 world record of Bird Count (385 species of birds were identified in 24 hours).
+             </p>
+            <div class="tour-detail">
+                <h3>
+                    pricing
+                </h3>
+                <div>
+                    More detail
+                </div>
+            </div>
+          </div>
+            
+         <div class='tour-info' data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-iconpos="right">
+            <div>
+                <img src='../assets/img/summit.jpg' />
+                <div>
+                    SUMMIT GARDEN
+                </div>
+            </div>
+            <p>Located just 20 minutes outside of Panama City, Summit Gardens provides visitors with an opportunity to view many of the animal species found in Panama, as well as others found in the Central & South American region. Summit Gardens also has an impressive exhibit/museum of the beautiful Harpy Eagle Panama’s national bird, one of the largest eagles in the world and the most powerful bird of prey.
+             </p>
+            <div class="tour-detail">
+                <h3>
+                    pricing
+                </h3>
+                <div>
+                    More detail
+                </div>
+            </div>
+          </div>
+            
+         <div class='tour-info' data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-iconpos="right">
+            <div>
+                <img src="../assets/img/teleferico%20mini.jpg" />
+                <div>
+                    CANOPY TRAM WITH REPTILE AND BUTTERFLY EXHIBITIONS
+                </div>
+            </div>
+            <p>Discover the secrets of the upper rainforest canopy with a ride on the Resort aerial tram. There you can enjoy a bird eye view of a thousand hues of green interspersed with the fluorescent exclamation points of flowering trees.The aerial tram is located in 100 hectares of rain forest where one finds an exuberant flora and fauna typical of Panama's neo-tropical forests.
+             </p>
+            <div class="tour-detail">
+                <h3>
+                    pricing
+                </h3>
+                <div>
+                    More detail
+                </div>
+            </div>
+          </div>
+            
+         <div class='tour-info' data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-iconpos="right">
+            <div>
+                <img src='../assets/img/pygmy%20kingfisher.jpg' />
+                <div>
+                    METROPOLITAN PARK
+                </div>
+            </div>
+            <p>The Metropolitan Natural Park (MNP), situated just outside of downtown Panama City, is the only park in Tropical Latin America with a natural forest located within a metropolitan capital. Encompassing approximately 265 hectares, 192 of which consist of dry lowland Pacific forest, the Metropolitan Natural Park was decreed a park in 1985.
+             </p>
+            <div class="tour-detail">
+                <h3>
+                    pricing
+                </h3>
+                <div>
+                    More detail
+                </div>
+            </div>
+          </div>
+            
+         <div class='tour-info' data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-iconpos="right">
+            <div>
+                <img src='../assets/img/redhelicopters.jpg' />
+                <div>
+                    PANAMA HELICOPTER TOUR
+                </div>
+            </div>
+            <p>Also ideally suited for servicing the country’s numerous tourist destinations, providing reliable, efficient and flexible helicopter service. Panama’s most desirable attractions can be serviced on short notice, as many of the islands, beaches, rivers and mountains are often just a short flight aboard comfortable helicopters. Let us know what your interested in and we'll give you a price quotation.
+             </p>
+            <div class="tour-detail">
+                <h3>
+                    pricing
+                </h3>
+                <div>
+                    More detail
+                </div>
+            </div>
+          </div>
+            
+         <div class='tour-info' data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-iconpos="right">
+            <div>
+                <img src='../assets/img/pacific.jpg' />
+                <div>
+                    PARTIAL AND FULL CANAL TRANSIT
+                </div>
+            </div>
+            <p>The Panama Canal, nearing its 100th year anniversary, is Panama’s most popular tourist attraction. The best way to experience the canal is in a cruise. During your transit, you will have the unique opportunity to see the Canal up close in operation. You will transit with the big ships and see the tug boats in operation and of course, the locks themselves. You can feel the sensation of going up or down to get from one ocean to the other.
+             </p>
+            <div class="tour-detail">
+                <h3>
+                    pricing
+                </h3>
+                <div>
+                    More detail
+                </div>
+            </div>
+          </div>
+            
+         <div class='tour-info' data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-iconpos="right">
+            <div>
+                <img src='../assets/img/panamabussmall.jpg' />
+                <div>
+                    THE OTHER PANAMA
+                </div>
+            </div>
+            <p>This tour is to show you the other part of Panama which everybody tends to hide, ignore and forget, where the less fortunate but most authentic people live. We will see the everyday life, history and situation of these places. We will as well visit the best established, largest, most inclusive strongholds of Panamanian capitalism as well as the most popular one for those less fortunate, called Avenida Central.
+             </p>
+            <div class="tour-detail">
+                <h3>
+                    pricing
+                </h3>
+                <div>
+                    More detail
+                </div>
+            </div>
+          </div>
+            
+         <div class='tour-info' data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-iconpos="right">
+            <div>
+                <img src='../assets/img/embera%20village%20community%20mini.jpg' />
+                <div>
+                    EMBERA INDIAN VILLAGE
+                </div>
+            </div>
+            <p>This tour will show you one of the three Indian cultures of Panama that are still living the same way as when Columbus found them in the 1500’s. An article about the Embera Indians was published in the National Geographic magazine. You will learn about their culture, see their ceremonial dances and hand-made crafts, taste their native food.
+             </p>
+            <div class="tour-detail">
+                <h3>
+                    pricing
+                </h3>
+                <div>
+                    More detail
+                </div>
+            </div>
+          </div>
+            
+         <div class='tour-info' data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-iconpos="right">
+            <div>
+                <img src='../assets/img/bohios%20mini.jpg' />
+                <div>
+                    BEACH - SANTA CLARA
+                </div>
+            </div>
+            <p>This local beach is just 1 hour and 15 min. from Panama City on the Pacific Coast and an only 30 mins drive from el Valle.This is the closest pretty Pacific beach to the Capital city.  It has it all: pleasant light grey sand beach, decent places to eat and not too many people. Because this region has always been a popular weekend getaway location for Panama City's residents, there is a nice tourism infrastructure that can be enjoyed by everyone.
+             </p>
+            <div class="tour-detail">
+                <h3>
+                    pricing
+                </h3>
+                <div>
+                    More detail
+                </div>
+            </div>
+          </div>
+            
+         <div class='tour-info' data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-iconpos="right">
+            <div>
+                <img src="../assets/img/logodeca.jpg" />
+                <div>
+                    DECAMERON (ALL-INCLUSIVE BEACH RESORT)
+                </div>
+            </div>
+            <p>Royal Decameron Beach Resort, Golf, Spa, &amp; Casino Panama offers a traditional All Inclusive experience and more.  When not relaxing on the beach or in the spa, you are invited to take part in the many organized activities, from volleyball to water aerobics...unlimited Domestic and International Alcoholic and Non-Alcoholic Beverages, Tennis Courts , Beach Volleyball , Children's Activities.
+             </p>
+            <div class="tour-detail">
+                <h3>
+                    pricing
+                </h3>
+                <div>
+                    More detail
+                </div>
+            </div>
+          </div>
+            
+         <div class='tour-info' data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-iconpos="right">
+            <div>
+                <img src="../assets/img/isla%20grande%20mini.jpg" />
+                <div>
+                    ISLA GRANDE
+                </div>
+            </div>
+            <p>Isla Grande is a Caribbean island getaway frequented by residents of Panama City because it is close enough to get to without flying. The island has about 300 inhabitants that make a living from fishing, growing coconuts and visitors that come to enjoy its natural beauty. There are no roads and the town spreads along its palm fingered beachfront full of tropical flowers which can be covered within 25 min., making it an  extremely peaceful place.
+             </p>
+            <div class="tour-detail">
+                <h3>
+                    pricing
+                </h3>
+                <div>
+                    More detail
+                </div>
+            </div>
+          </div>
+            
+         <div class='tour-info' data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-iconpos="right">
+            <div>
+                <img />
+                <div>
+                    CITY &amp; METROPOLITAN PARK
+                </div>
+            </div>
+            <p>Please read about the City tour here and the Metropolitan here.
+             </p>
+            <div class="tour-detail">
+                <h3>
+                    pricing
+                </h3>
+                <div>
+                    More detail
+                </div>
+            </div>
+          </div>
+            
+         <div class='tour-info' data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-iconpos="right">
+            <div>
+                <img />
+                <div>
+                    THE OTHER PANAMA &amp; CANAL
+                </div>
+            </div>
+            <p>Please read about The Other Panama tour here and the Canal here.
+             </p>
+            <div class="tour-detail">
+                <h3>
+                    pricing
+                </h3>
+                <div>
+                    More detail
+                </div>
+            </div>
+          </div>
+            
+         <div class='tour-info' data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-iconpos="right">
+            <div>
+                <img />
+                <div>
+                    EL VALLE &amp; SANTA CLARA
+                </div>
+            </div>
+            <p></p>
+            <div class="tour-detail">
+                <h3>
+                    pricing
+                </h3>
+                <div>
+                    More detail
+                </div>
+            </div>
+          </div>
+            
+         <div class='tour-info' data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-iconpos="right">
+            <div>
+                <img />
+                <div>
+                    PORTOBELLO &amp; GATUN lOCKS &amp; COLON
+                </div>
+            </div>
+            <p></p>
+            <div class="tour-detail">
+                <h3>
+                    pricing
+                </h3>
+                <div>
+                    More detail
+                </div>
+            </div>
+          </div>
+            
+         <div class='tour-info' data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-iconpos="right">
+            <div>
+                <img />
+                <div>
+                    PORTOBELLO &amp; ISLA GRANDE
+                </div>
+            </div>
+            <p></p>
+            <div class="tour-detail">
+                <h3>
+                    pricing
+                </h3>
+                <div>
+                    More detail
+                </div>
+            </div>
+          </div>
+            
+         <div class='tour-info' data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-iconpos="right">
+            <div>
+                <img src="../assets/img/IMG_0186.JPG" />
+                <div>
+                   TOURS FOR CHILDREN
+                </div>
+            </div>
+            <p>Children and their families can enjoy all the tours that we offer but depending on the interests of your children and their ages some might not be adequat for them so tell me a little bit about them, their interests, their tolerance to long drives and their ages so that I can offer you the most suitable tours so that you and them can enjoy a great day;-)</p>
+            <div class="tour-detail">
+                <h3>
+                    pricing
+                </h3>
+                <div>
+                    More detail
+                </div>
+            </div>
+          </div>
+            
+         <div class='tour-info' data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-iconpos="right">
+            <div>
+                <img src="../assets/img/panamacanal.jpg" />
+                <div>
+                   PANAMA REAL ESTATE TOUR
+                </div>
+            </div>
+            <p>Discover  Panama's geografical overview in terms of real estate and Panama City's different areas and neighborhoods. According to your intrests and budget, we will create an itinarary to concentrate in what you really need. I am not a Real Estate broker nor do I have a license but do know well the city and what is happening in terms of construction, lifestyles and type of neighborhoods. The good part of this is that I will not try to push you to any particular project, you will get a neutral advice and I will direct you to a Real Estate Agency that I feel have the projet that best suit your desire...if you buy with them, your tour is free!</p>
+            <div class="tour-detail">
+                <h3>
+                    pricing
+                </h3>
+                <div>
+                    More detail
+                </div>
+            </div>
+          </div>
+            
+         <div class='tour-info' data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-iconpos="right">
+            <div>
+                <img class='info-header' src='../assets/img/cruise%20line%20colon%20icon.jpg' />
+                <div class='info-header' >
+                   FOR CRUISE LINERS IN COLON
+                </div>
+            </div>
+            <p>Please click on the price list to see what tours we can offer you during your docking time;-) We can arrange groups for up to 18 people.</p>
+            <div class="tour-detail">
+                <h3>
+                    pricing
+                </h3>
+                <div>
+                    More detail
+                </div>
+            </div>
+          </div>
+            
+         <div class='tour-info' data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-iconpos="right">
+            <div>
+                <img class='info-header' src='../assets/img/panamasantaclara.jpg' />
+                <div class='info-header' >
+                   TRAVELERS STAYING IN RESORTS
+                </div>
+            </div>
+            <p>We can also offer you our tours, however there is a supplement as we are based in Panama City;-) Please inquire about the prices (price list comming soon!): Decameron all inclusive Resort, Playa Bonita Resort, Gamboa Resort and Melia Colon...if you are staying somewhere else we can also service you, just let us know where you are and we'll give you a quotation depending on the tours you are interested in:-)</p>
+            <div class="tour-detail">
+                <h3>
+                    pricing
+                </h3>
+                <div>
+                    More detail
+                </div>
+            </div>
+          </div>
+            
+         <div class='tour-info' data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-iconpos="right">
+            <div>
+                <img class='info-header-image' />
+                <div class='info-header' >
+                   FOR THOSE IN TRANSFER
+                </div>
+            </div>
+            <p>Only here for a few hours? Let us take care of you: we'll pick you up at the airport, show you the city, the canal or take you to do some shopping and then return you to the airport. Just let us know your time of arrival with flight number, time of departure and what you would like to do and we'll work out the itineray for you.</p>
+            <div class="tour-detail">
+                <h3>
+                    pricing
+                </h3>
+                <div>
+                    More detail
+                </div>
+            </div>
+          </div>
+            
+         <div class='tour-info' data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-iconpos="right">
+            <div >
+                <img class='info-header-image' src="../assets/img/travel%20panama.jpg" />
+                <div class='info-header' >
+                   TRANSFERS TO &amp; FROM TOCUMEN INTERNATIONAL AIRPORT AS WELL AS OTHER DESTINATIONS
+                </div>
+            </div>
+            <p>When arriving in Panama City at the International Airport Tocumen, save yourself the hassle of debating prices with taxi drivers...and book with us...it will be safer, more pleasurable, faster and easier than a taxi service...and we know where to drive you to;-) We offer transfers from and to the international airport of Tocumen to all the hotels in the city as well as to the Decameron resort, Playa Bonita Resort, Gamboa rain forest resort, Playa Blanca resort, Mélia in Colon.</p>
+            <div class="tour-detail">
+                <h3>
+                    pricing
+                </h3>
+                <div>
+                    More detail
+                </div>
+            </div>
+          </div>
+            
+        </div>
+    </div>
+    <div data-role='footer'>
+       <div>
+           <p>
+                Licensed, approved and certified by the Panamenian Tourism Bureau Authority (ATP), as well  as  a special commercial  insurance that fully covers all passengers.
+            </p>
+            <p>
+                Professional Driver's license (Type E1) and licensed plate (SET - Special Tourism Service).
+            </p>
+       </div>
+       <div>
+           <span>enjoypanama@rudystours.com</span>
+           <span>Cell: (507) 67137165</span>
+       </div>
+    </div>
+</div>
+<div data-role='page' id='about'>
+    <div data-role='panel' id='about-menu' data-display='overlay'>
+        <a href='#offerings'>Available Tours</a>
+    </div>
+    <div data-role='header'>
+        <a href='#about-menu'>Menu</a>
+        <h1>About Rudy's Tours</h1>
+    </div>
+    <div role='main' class='ui-content'>
+        <div>
+            <p>Twenty years from now you will be more disappointed by the things that you didn't do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbor. Catch the trade winds in your sails. Explore. Dream. Discover." --Mark Twain
+            </p>
+        </div>
+        <div>
+            <p>Panama is a rather small country (77,381 sq. km. / 29,762 sq. mi.) and the major attractions are all in Panama City and its surroundings. You have beaches, mountains, lakes, tropical rainforests, the Panama Canal, tax free shopping, history, ruins, bird watching, jungle trekking, deep-sea fishing, diving, snorkeling, marine and biodiversity exhibition centers, excellent restaurants and night life... all at your finger tips;-)  Normally one tends to jump from one place to another within the country with a rental car trying to see as much as possible, wasting a lot of time and accumulating stress instead of…relaxing and enjoying the scenery with me as your guide.
+            </p>
+            <p>If you want to discover and feel part of this country, combining culture with history, as well as sunbathing at the beach and having fun,  then my recommendation is to stay at least  5 days (a week would be better as some of you will need time to get rid of the jet-lag!) in Panama City and take day tours to the places of your interest. This will save you a lot of time and money and at the same time will let you enjoy Panama's night life enjoying one of Amador’s restaurants with the canal view and ocean breeze, or in Bella Vista neighborhood where you will find the widest selection of restaurants and bars of the city with its casinos and night clubs and just dance away to the salsa and merengue music;-)
+            </p>
+            <p>To keep a family atmosphere I have decided not to take more then 6 adults (or 5 adults + 2 children) on the same tour, this way I will have more time for each one of you and you will have the opportunity to make friends on the way;-) But if you want to keep the tour  private just for your party then a small nominal fee will apply.
+            </p>
+        </div>
+    </div>
+    <div data-role='footer'>
+       <div>
+            <p>
+                Licensed, approved and certified by the Panamenian Tourism Bureau Authority (ATP), as well  as  a special commercial  insurance that fully covers all passengers.
+            </p>
+            <p>
+                Professional Driver's license (Type E1) and licensed plate (SET - Special Tourism Service).
+            </p>
+       </div>
+       <div>
+           <span>enjoypanama@rudystours.com</span>
+           <span>Cell: (507) 67137165</span>
+       </div>
+    </div>
+</div>
+
+</div>
+
+<script>
+$(document).ready(function () {
+    $('.tour-detail').collapsible();
+    $('.tour-info').collapsible({'heading':'div'});
+    $("#country").countrySelector({
+        countries: ['GBR', 'FRA', 'MEX', 'DEU', 'ITA'], 'value' : 'MEX' });
+});
+</script>
+</body>
